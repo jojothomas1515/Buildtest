@@ -5,4 +5,5 @@ jobs:
     docker:
       - image: cimg/base:2020.05
     steps:
-      - run: apt-get install python3
+      - run: echo $PATH
+      - run: python --version
