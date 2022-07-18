@@ -4,3 +4,5 @@ jobs:
   build:
     docker:
       - image: cimg/base:2020.05
+    steps:
+      - run: echo "Say hello to YAML!"
